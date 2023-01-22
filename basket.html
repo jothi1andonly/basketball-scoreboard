@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basketball scorecard</title>
+    <link rel="stylesheet" href="basket.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="bases">
+            <h1>HOME</h1>
+            <div class="score" id="home-score">00</div>
+            <div id="add-ons">
+                <button onclick="addone(homeEl)">+1</button>
+                <button onclick="addtwo(homeEl)">+2</button>
+                <button onclick="addthree(homeEl)">+3</button> 
+            </div>   
+        </div>
+        <div class="bases">
+            <h1>AWAY</h1>
+            <div class="score" id="away-score">00</div>
+            <div id="add-ons">
+            <button onclick="addone(awayEl)">+1</button>
+            <button onclick="addtwo(awayEl)">+2</button>
+            <button onclick="addthree(awayEl)">+3</button> 
+        </div>   
+        </div>
+    </div>
+    <script src="basket.js"></script>
+</body>
+</html>
